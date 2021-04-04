@@ -1,0 +1,168 @@
+.firstSection{
+    height: min-content;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows:2fr 1.5fr;
+    position: relative;
+}
+
+.firstSection h2 {
+    font-size:50px;
+    font-weight: bold;
+}
+
+.firstSection p {
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.firstSection button {
+    background: #F36888;
+    border-radius: 22px;
+    border:none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.firstSection button:nth-child(2) {
+    background:#00B4D8 ;
+}
+
+.firstImg {
+    width: 100%;
+    height:  100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.firstImg .circleTop{
+    top:0px;
+    position: absolute;
+    transform: translateX(10%);
+    transform: translateY(-40%);
+    background: #06D6A0;
+    margin: 0 1rem 1rem 0;
+    height: 15rem;
+    width: 30rem;
+    border-bottom-left-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    z-index: 90;
+}
+
+.firstImg .circleRight {
+    background: #FFCE5C;
+    height: 20rem;
+    width: 10rem;
+    border-bottom-left-radius: 30rem;
+    border-top-left-radius: 30rem;
+    z-index: 90;
+    right:0px;
+    bottom:0px;
+    transform: translateY(50%);
+    position: absolute;
+
+}
+
+.firstImg .circleCenter {
+    background: #F36888;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    z-index: 90;
+    left:0px;
+    bottom:0px;
+    position: absolute;
+    transform: translate(-50%,50%) 
+ 
+}
+
+.firstImg img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50rem ;
+    object-fit: cover;
+    object-position: left bottom ;
+}
+
+.secondImg {
+    width: 100%;
+    height:  100%;
+    position: relative;
+}
+
+.secondImg img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 50rem ;
+    object-fit: cover;
+    object-position: bottom  ;    
+}
+
+.firstDesc, .secondDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.firstDesc>div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.secondDesc>div {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+@media (max-width:992px) {
+
+    .firstSection{
+        height: 40rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr;
+    }
+
+    .firstSection h2 {
+        font-size:30px;
+        font-weight: bold;
+    }
+
+    .firstDesc>div, .secondDesc>div {
+        width: 100%;
+        background-color: rgba(255,255,255, 0.4);
+    }
+    
+    .firstImg, .secondImg   {
+        display: none;
+     }
+      
+    .firstDesc, .secondDesc {
+        background-position: left;
+        background-size: cover;
+        padding: 1rem;
+    }
+
+     .firstDesc {
+         background-image: url("../asset/dino-reichmuth-A5rCN8626Ck-unsplash.jpg");
+         margin-bottom: 1.5rem;
+     }
+ 
+     .secondDesc {
+         background-image: url("../asset/stefan-stefancik-0wMmxNB6Xzc-unsplash.jpg");
+     }
+
+     .firstImg .circleRight{
+         display: none;
+     }
+
+     .firstImg .circleTop {
+        display: none;
+     }
+
+}
