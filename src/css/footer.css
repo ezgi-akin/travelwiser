@@ -1,0 +1,87 @@
+footer {
+    border-top: 1px solid #E5E5E5;
+}
+
+footer>div {
+    display: grid;
+    grid-template-areas: "logo links social"
+                        ". links social"
+                        "copyright copyright copyright";
+   width: 1000px; 
+   margin: 0 auto;       
+   padding-top: 1rem;             
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer .logo {
+    grid-area: logo;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+
+footer .links {
+    grid-area: links;
+    padding: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+footer .social {
+    grid-area: social;
+    padding: 1rem;
+    /* display: flex;
+    justify-content: center; */
+}
+
+footer .social>div {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .social svg {
+    margin-right: 0.4rem;
+    margin-bottom: 0.4rem;
+    padding: 0.2rem;
+}
+
+footer .copyright {
+    grid-area:copyright;
+    text-align:center;
+    padding: 1rem;
+}
+
+footer .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 992px) {
+    footer>div {
+        display: grid;
+        grid-template-areas: "logo"
+                            "links"
+                            "social"
+                            "copyright";
+       width: 100%; 
+       margin: 0 auto;       
+       padding-top: 1rem;    
+       justify-items: center;   
+    
+    }
+
+    footer .links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .blog > div:nth-child(2) p {
+        width: 100%;
+    }
+  }
