@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/travelwiser/static/css/main.eae46ef9.chunk.css",
+    "main.js": "/travelwiser/static/js/main.98688da0.chunk.js",
+    "main.js.map": "/travelwiser/static/js/main.98688da0.chunk.js.map",
+    "runtime-main.js": "/travelwiser/static/js/runtime-main.c8d30c68.js",
+    "runtime-main.js.map": "/travelwiser/static/js/runtime-main.c8d30c68.js.map",
+    "static/js/2.b4fe0949.chunk.js": "/travelwiser/static/js/2.b4fe0949.chunk.js",
+    "static/js/2.b4fe0949.chunk.js.map": "/travelwiser/static/js/2.b4fe0949.chunk.js.map",
+    "index.html": "/travelwiser/index.html",
+    "static/css/main.eae46ef9.chunk.css.map": "/travelwiser/static/css/main.eae46ef9.chunk.css.map",
+    "static/js/2.b4fe0949.chunk.js.LICENSE.txt": "/travelwiser/static/js/2.b4fe0949.chunk.js.LICENSE.txt",
+    "static/media/blog.css": "/travelwiser/static/media/david-marcu-78A265wPiO4-unsplash.2b74e146.jpg",
+    "static/media/5054c4daf530354d9ce199ac7c59c324.cd62e318.png": "/travelwiser/static/media/5054c4daf530354d9ce199ac7c59c324.cd62e318.png",
+    "static/media/firstSection.css": "/travelwiser/static/media/stefan-stefancik-0wMmxNB6Xzc-unsplash.2ebc60ad.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8d30c68.js",
+    "static/js/2.b4fe0949.chunk.js",
+    "static/css/main.eae46ef9.chunk.css",
+    "static/js/main.98688da0.chunk.js"
+  ]
+}
